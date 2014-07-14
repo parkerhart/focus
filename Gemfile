@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.4'
+gem 'rails', '4.1.1'
 
 gem 'pg'
 
@@ -36,6 +36,7 @@ group :development, :test do
   gem 'pry'
   gem 'pry-debugger'
   gem 'rspec-rails'
+  gem 'rails_12factor'
 end
 
 # Use ActiveModel has_secure_password
